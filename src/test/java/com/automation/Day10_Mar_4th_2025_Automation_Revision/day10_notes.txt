@@ -1,0 +1,79 @@
+1 [is trusting me]
+
+We have to learn what comprise of a website or a webpage
+This is bread and butter of Automation
+
+WebPage is created using lots of Web Elements
+
+Identifying WebElements
+-------------------------
+
+1. Textbox is nothing but an element of the webpage
+2. Button
+3. Dropdowns
+4. Checkbox
+5. Radio button 
+6. Links
+7. WebTable
+8. Logos
+9. Images
+10. Videos / Advertisements [flashes group]
+11. Frames
+12. Pop Up Windows - Alerts  
+13. Text
+14. Captchas
+15. BarCodes
+16. Progress Bar
+17. File Upload
+18. Tooltip
+19. Calendars - Date Pickers
+20. Drag and Drop Elements
+21. Shadow DOM Elements
+22. Dynamic Elements
+-----------------------------------------------------------------
+
+Understanding WebElements
+
+first you need to understand DOM (Document Object Model)
+
+html - hypertext markup language
+
+basically falls under a family
+
+Parent has a child
+that child has more children
+
+html has tags
+<openingatag>..........content......</closingtag>
+
+
+<html>
+ <head>.......</head>
+ <body>........</body>
+</html>
+
+head and body are siblings to each other
+
+
+3 brothers
+
+<parent> 
+  <Elder Brother>......tall, blonde, athlete, smart, rich, single.... </Elder Brother>
+  <Middle Brother>......medium, dark, fat, shrewed, poor, complicated...</Middle Brother>
+  <Younger Brother>.....short, tan, wellbuilt, powerlifter, average....</Younger Brother>
+</parent>
+
+elder brother precedes other siblings
+younger brother follows other siblings
+
+
+
+
+
+
+
+
+
+
+
+                
