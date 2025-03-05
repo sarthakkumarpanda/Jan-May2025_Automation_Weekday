@@ -1,4 +1,4 @@
-package com.automation.Day7_Jan_28th_2005_FirstAutomationCode;
+package com.automation.Day7_Jan_28th_2025_FirstAutomationCode;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

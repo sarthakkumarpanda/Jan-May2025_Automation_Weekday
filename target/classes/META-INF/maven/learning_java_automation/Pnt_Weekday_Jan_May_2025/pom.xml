@@ -17,17 +17,7 @@
 		<maven.compiler.release>21</maven.compiler.release>
 	</properties>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.junit</groupId>
-				<artifactId>junit-bom</artifactId>
-				<version>5.11.0</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+
 
 	<dependencies>
 
@@ -35,8 +25,16 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.28.1</version>
+			<version>4.29.0</version>
 		</dependency>
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 	</dependencies>
