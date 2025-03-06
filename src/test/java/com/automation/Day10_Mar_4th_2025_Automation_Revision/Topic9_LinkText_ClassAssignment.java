@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Topic9_LinkText_PartialLinkText {
+public class Topic9_LinkText_ClassAssignment {
 
 	public static void main(String[] args) {
 		

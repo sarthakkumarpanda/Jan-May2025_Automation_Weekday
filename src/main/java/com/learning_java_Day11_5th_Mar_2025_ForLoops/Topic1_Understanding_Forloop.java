@@ -1,6 +1,6 @@
-package com.learning_java_Day9_26th_Feb_2025_ControlStatements;
+package com.learning_java_Day11_5th_Mar_2025_ForLoops;
 
-public class Topic5_Forloop {
+public class Topic1_Understanding_Forloop {
 	
 	public static void print1to10() {
 		for(int i=1 ; i<=10 ; i++) {
