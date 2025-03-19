@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sarth\AppData\Local\Temp\testng-eclipse-395071540\testng-customsuite.xml</span>
+                    <span>C:\Users\sarth\AppData\Local\Temp\testng-eclipse-1121144143\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,24 +103,10 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases" class="method navigator-link" hash-for-method="viewLogoutLinkIsPresent">viewLogoutLinkIsPresent</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN" class="method navigator-link" hash-for-method="registerWithAllDetails">registerWithAllDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Default_suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases" class="method navigator-link" hash-for-method="clickOnLogoutLinkTest">clickOnLogoutLinkTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -131,7 +117,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials">verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN" class="method navigator-link" hash-for-method="registerWithMandatoryDetails">registerWithMandatoryDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN" class="method navigator-link" hash-for-method="registerWithNoDetails">registerWithNoDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -149,18 +140,38 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</span>
+              <span class="class-name">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="viewLogoutLinkIsPresent">
-                  </a> <!-- viewLogoutLinkIsPresent -->
-                  <span class="method-name">viewLogoutLinkIsPresent</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.viewLogoutLinkIsPresent(Topic7_Dependency_Between_TestCases.java:38)
+                  <a name="registerWithAllDetails">
+                  </a> <!-- registerWithAllDetails -->
+                  <span class="method-name">registerWithAllDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text() = &apos;Congratulations! Your new account has been successfully created!&apos;]&quot;}
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e49b3b6813dc46dcc16f918640b8f2f9, findElement {using=xpath, value=//p[text() = &apos;Congratulations! Your new account has been successfully created!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e49b3b6813dc46dcc16f918640b8f2f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN.registerWithAllDetails(Assert_SoftAssert_RegisterTN.java:56)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -193,56 +204,24 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
-          <div class="suite-Default_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnLogoutLinkTest">
-                  </a> <!-- clickOnLogoutLinkTest -->
-                  <span class="method-name">clickOnLogoutLinkTest</span>
-                  <div class="stack-trace">java.lang.Throwable: Method com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.clickOnLogoutLinkTest() on instance com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases@4802796d depends on not successfully finished methods 
-[com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.verifyLoginWithValidCredentials() on instance com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases@4802796d
-com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.viewLogoutLinkIsPresent() on instance com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases@4802796d]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-skipped -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</span>
+              <span class="class-name">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithValidCredentials">
-                  </a> <!-- verifyLoginWithValidCredentials -->
-                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <a name="registerWithMandatoryDetails">
+                  </a> <!-- registerWithMandatoryDetails -->
+                  <span class="method-name">registerWithMandatoryDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerWithNoDetails">
+                  </a> <!-- registerWithNoDetails -->
+                  <span class="method-name">registerWithNoDetails</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -250,7 +229,7 @@ com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sarth\AppData\Local\Temp\testng-eclipse-395071540\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sarth\AppData\Local\Temp\testng-eclipse-1121144143\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -259,7 +238,7 @@ com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases&quot;/&gt;
+      &lt;class name=&quot;com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -301,22 +280,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginWithValidCredentials')
-data.setCell(0, 2, 'com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases')
-data.setCell(0, 3, 1576);
+data.setCell(0, 1, 'registerWithMandatoryDetails')
+data.setCell(0, 2, 'com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN')
+data.setCell(0, 3, 2122);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'viewLogoutLinkIsPresent')
-data.setCell(1, 2, 'com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases')
-data.setCell(1, 3, 1575);
+data.setCell(1, 1, 'registerWithAllDetails')
+data.setCell(1, 2, 'com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN')
+data.setCell(1, 3, 1382);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickOnLogoutLinkTest')
-data.setCell(2, 2, 'com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'registerWithNoDetails')
+data.setCell(2, 2, 'com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN')
+data.setCell(2, 3, 859);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -342,32 +321,44 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredentials</span>
-                <span class="method-start">5877 ms</span>
+                <span class="method-name">registerWithMandatoryDetails</span>
+                <span class="method-start">5571 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">7464 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7698 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">7856 ms</span>
+                <span class="method-start">8175 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">viewLogoutLinkIsPresent</span>
-                <span class="method-start">13079 ms</span>
+                <span class="method-name">registerWithAllDetails</span>
+                <span class="method-start">13359 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">14658 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">14963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerWithNoDetails</span>
+                <span class="method-start">19913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20774 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

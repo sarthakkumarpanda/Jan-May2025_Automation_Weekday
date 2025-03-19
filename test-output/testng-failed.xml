@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases">
+      <class name="com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN">
         <methods>
-          <include name="clickOnLogoutLinkTest"/>
-          <include name="viewLogoutLinkIsPresent"/>
-          <include name="teardown"/>
-          <include name="verifyLoginWithValidCredentials"/>
           <include name="launchApplication"/>
+          <include name="registerWithAllDetails"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases -->
+      </class> <!-- com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

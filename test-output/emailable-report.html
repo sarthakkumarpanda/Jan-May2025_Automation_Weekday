@@ -9,14 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,102</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,153</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</td><td><a href="#m0">viewLogoutLinkIsPresent</a></td><td rowspan="1">1741834056219</td><td rowspan="1">1575</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</td><td><a href="#m1">clickOnLogoutLinkTest</a></td><td rowspan="1">1741834058189</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases</td><td><a href="#m2">verifyLoginWithValidCredentials</a></td><td rowspan="1">1741834049017</td><td rowspan="1">1576</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN</td><td><a href="#m0">registerWithAllDetails</a></td><td rowspan="1">1742353096864</td><td rowspan="1">1382</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN</td><td><a href="#m1">registerWithMandatoryDetails</a></td><td rowspan="1">1742353089076</td><td rowspan="1">2122</td></tr><tr class="passedeven"><td><a href="#m2">registerWithNoDetails</a></td><td rowspan="1">1742353103418</td><td rowspan="1">859</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases#viewLogoutLinkIsPresent</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.viewLogoutLinkIsPresent(Topic7_Dependency_Between_TestCases.java:38)
+<h2>Default test</h2><h3 id="m0">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN#registerWithAllDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text() = &apos;Congratulations! Your new account has been successfully created!&apos;]&quot;}
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e49b3b6813dc46dcc16f918640b8f2f9, findElement {using=xpath, value=//p[text() = &apos;Congratulations! Your new account has been successfully created!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e49b3b6813dc46dcc16f918640b8f2f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN.registerWithAllDetails(Assert_SoftAssert_RegisterTN.java:56)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -44,29 +64,7 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases#clickOnLogoutLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.clickOnLogoutLinkTest() on instance com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases@4802796d depends on not successfully finished methods 
-[com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.verifyLoginWithValidCredentials() on instance com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases@4802796d
-com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases.viewLogoutLinkIsPresent() on instance com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases@4802796d]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.automation.Day13_Mar_12th_2025_TestNG_Introduction.Topic7_Dependency_Between_TestCases#verifyLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN#registerWithMandatoryDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN#registerWithNoDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
