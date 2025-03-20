@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Suite">
+  <test name="Parameterization Test">
+  
+  <parameter name = "url"         value = "https://tutorialsninja.com/demo" />
+  <parameter name = "email"       value = "seleniumpanda@gmail.com" />
+  <parameter name = "password"    value = "Selenium@123" />
+  <parameter name = "firstname"   value = "Selenium" />
+  <parameter name = "lastname"   value = "Panda" />
+  <parameter name = "registeredEmail"   value = "seleniumpanda11678@gmail.com" />
+  <parameter name = "telephone"   value = "9876543210" />
+  
+  
+    <classes>
+      <class name="com.automation.Day15_Mar_19th_2025_TestNG_Parameterization.Topic1_TN"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

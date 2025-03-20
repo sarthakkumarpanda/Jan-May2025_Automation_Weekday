@@ -1,58 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-18T22:58:03 EDT" name="Default suite" finished-at="2025-03-18T22:58:24 EDT" duration-ms="21153">
+  <suite started-at="2025-03-19T22:46:04 EDT" name="Default suite" finished-at="2025-03-19T22:47:33 EDT" duration-ms="89527">
     <groups>
     </groups>
-    <test started-at="2025-03-18T22:58:03 EDT" name="Default test" finished-at="2025-03-18T22:58:24 EDT" duration-ms="21153">
-      <class name="com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:03 EDT" name="launchApplication" finished-at="2025-03-18T22:58:09 EDT" duration-ms="5570" status="PASS">
+    <test started-at="2025-03-19T22:46:04 EDT" name="Default test" finished-at="2025-03-19T22:47:33 EDT" duration-ms="89527">
+      <class name="com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:04 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:46:12 EDT" duration-ms="8251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="registerWithMandatoryDetails()[pri:1, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:09 EDT" name="registerWithMandatoryDetails" finished-at="2025-03-18T22:58:11 EDT" duration-ms="2122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:11 EDT" name="tearDown" finished-at="2025-03-18T22:58:11 EDT" duration-ms="474" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:12 EDT" name="tearDown" finished-at="2025-03-19T22:46:12 EDT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:11 EDT" name="launchApplication" finished-at="2025-03-18T22:58:16 EDT" duration-ms="5184" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:12 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:46:20 EDT" duration-ms="7744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="registerWithAllDetails()[pri:2, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:16 EDT" name="registerWithAllDetails" finished-at="2025-03-18T22:58:18 EDT" duration-ms="1382" status="FAIL">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:20 EDT" name="tearDown" finished-at="2025-03-19T22:46:21 EDT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:21 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:46:28 EDT" duration-ms="7315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:28 EDT" name="tearDown" finished-at="2025-03-19T22:46:28 EDT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:28 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:46:36 EDT" duration-ms="8275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:36 EDT" name="tearDown" finished-at="2025-03-19T22:46:37 EDT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:37 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:46:49 EDT" duration-ms="12030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:49 EDT" name="tearDown" finished-at="2025-03-19T22:46:50 EDT" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:50 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:46:58 EDT" duration-ms="8379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:58 EDT" name="tearDown" finished-at="2025-03-19T22:46:59 EDT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:46:59 EDT" name="loginTest" data-provider="getLoginTestData" finished-at="2025-03-19T22:47:05 EDT" duration-ms="6433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:05 EDT" name="tearDown" finished-at="2025-03-19T22:47:05 EDT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:05 EDT" name="registerTest" data-provider="getRegisterTestData" finished-at="2025-03-19T22:47:14 EDT" duration-ms="8870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Panda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:14 EDT" name="tearDown" finished-at="2025-03-19T22:47:15 EDT" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:15 EDT" name="registerTest" data-provider="getRegisterTestData" finished-at="2025-03-19T22:47:25 EDT" duration-ms="10044" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Panda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[text() = 'Congratulations! Your new account has been successfully created!']"}
-  (Session info: chrome=134.0.6998.89)
+  (Session info: chrome=134.0.6998.90)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
+Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e49b3b6813dc46dcc16f918640b8f2f9, findElement {using=xpath, value=//p[text() = 'Congratulations! Your new account has been successfully created!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e49b3b6813dc46dcc16f918640b8f2f9]]>
+Command: [48dfe77e904524b6aa024e8aeada0f1e, findElement {value=//p[text() = 'Congratulations! Your new account has been successfully created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.90, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64253/devtoo..., se:cdpVersion: 134.0.6998.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48dfe77e904524b6aa024e8aeada0f1e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text() = 'Congratulations! Your new account has been successfully created!']"}
-  (Session info: chrome=134.0.6998.89)
+  (Session info: chrome=134.0.6998.90)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
+Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e49b3b6813dc46dcc16f918640b8f2f9, findElement {using=xpath, value=//p[text() = 'Congratulations! Your new account has been successfully created!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e49b3b6813dc46dcc16f918640b8f2f9
+Command: [48dfe77e904524b6aa024e8aeada0f1e, findElement {value=//p[text() = 'Congratulations! Your new account has been successfully created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.90, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64253/devtoo..., se:cdpVersion: 134.0.6998.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48dfe77e904524b6aa024e8aeada0f1e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
@@ -60,7 +246,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN.registerWithAllDetails(Assert_SoftAssert_RegisterTN.java:56)
+at com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases.registerTest(External_TestCases.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -92,24 +278,113 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerWithAllDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:18 EDT" name="tearDown" finished-at="2025-03-18T22:58:18 EDT" duration-ms="218" status="PASS">
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:25 EDT" name="tearDown" finished-at="2025-03-19T22:47:25 EDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:18 EDT" name="launchApplication" finished-at="2025-03-18T22:58:23 EDT" duration-ms="4949" status="PASS">
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:25 EDT" name="registerTest" data-provider="getRegisterTestData" finished-at="2025-03-19T22:47:33 EDT" duration-ms="8052" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Panda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[text() = 'Congratulations! Your new account has been successfully created!']"}
+  (Session info: chrome=134.0.6998.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da9f3d57955346f357322fc3039b8b68, findElement {value=//p[text() = 'Congratulations! Your new account has been successfully created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.90, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64311/devtoo..., se:cdpVersion: 134.0.6998.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da9f3d57955346f357322fc3039b8b68]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text() = 'Congratulations! Your new account has been successfully created!']"}
+  (Session info: chrome=134.0.6998.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da9f3d57955346f357322fc3039b8b68, findElement {value=//p[text() = 'Congratulations! Your new account has been successfully created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.90, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: C:\Users\sarth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64311/devtoo..., se:cdpVersion: 134.0.6998.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da9f3d57955346f357322fc3039b8b68
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases.registerTest(External_TestCases.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="registerWithNoDetails()[pri:3, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:23 EDT" name="registerWithNoDetails" finished-at="2025-03-18T22:58:24 EDT" duration-ms="859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithNoDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN@397fbdb]" started-at="2025-03-18T22:58:24 EDT" name="tearDown" finished-at="2025-03-18T22:58:24 EDT" duration-ms="331" status="PASS">
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases@41d477ed]" started-at="2025-03-19T22:47:33 EDT" name="tearDown" finished-at="2025-03-19T22:47:33 EDT" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN -->
+      </class> <!-- com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.External_TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

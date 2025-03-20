@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN">
+      <class name="com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.Topic2_Login_TN">
         <methods>
+          <include name="verifyLoginWithValidCredentials" invocation-numbers="1 6"/>
           <include name="launchApplication"/>
-          <include name="registerWithAllDetails"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.Day14_Mar_18th_2025_TestNG_Assertions_in_TestNG.Assert_SoftAssert_RegisterTN -->
+      </class> <!-- com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.Topic2_Login_TN -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
