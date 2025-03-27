@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.Topic2_Login_TN">
+      <class name="com.automation.Day17_Mar_26th_2025_DataProvider_ExcelSheet.TestCases">
         <methods>
-          <include name="verifyLoginWithValidCredentials" invocation-numbers="1 6"/>
-          <include name="launchApplication"/>
           <include name="tearDown"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- com.automation.Day15_Mar_19th_2025_TestNG_DataProvider.Topic2_Login_TN -->
+      </class> <!-- com.automation.Day17_Mar_26th_2025_DataProvider_ExcelSheet.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
