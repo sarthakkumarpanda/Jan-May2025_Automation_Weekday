@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T20:57:48 EDT" name="Default suite" finished-at="2025-03-26T20:57:52 EDT" duration-ms="4174">
+  <suite started-at="2025-04-01T22:07:32 EDT" name="Default suite" finished-at="2025-04-01T22:07:35 EDT" duration-ms="3343">
     <groups>
     </groups>
-    <test started-at="2025-03-26T20:57:48 EDT" name="Default test" finished-at="2025-03-26T20:57:52 EDT" duration-ms="4174">
-      <class name="com.automation.Day17_Mar_26th_2025_Wait_Conditions.Types_Of_Wait">
-        <test-method signature="applyingExplicitWait()[pri:0, instance:com.automation.Day17_Mar_26th_2025_Wait_Conditions.Types_Of_Wait@13c9d689]" started-at="2025-03-26T20:57:48 EDT" name="applyingExplicitWait" finished-at="2025-03-26T20:57:52 EDT" duration-ms="4121" status="PASS">
+    <test started-at="2025-04-01T22:07:32 EDT" name="Default test" finished-at="2025-04-01T22:07:35 EDT" duration-ms="3343">
+      <class name="com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions">
+        <test-method signature="dragAndDropForTwoEntities()[pri:3, instance:com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions@13c9d689]" started-at="2025-04-01T22:07:32 EDT" name="dragAndDropForTwoEntities" finished-at="2025-04-01T22:07:35 EDT" duration-ms="3248" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- applyingExplicitWait -->
-      </class> <!-- com.automation.Day17_Mar_26th_2025_Wait_Conditions.Types_Of_Wait -->
+        </test-method> <!-- dragAndDropForTwoEntities -->
+      </class> <!-- com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

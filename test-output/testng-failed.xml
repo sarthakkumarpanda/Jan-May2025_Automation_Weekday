@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day17_Mar_26th_2025_DataProvider_ExcelSheet.TestCases">
+      <class name="com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions">
         <methods>
-          <include name="tearDown"/>
-          <include name="LoginTest"/>
+          <include name="mouseActionsOperations"/>
         </methods>
-      </class> <!-- com.automation.Day17_Mar_26th_2025_DataProvider_ExcelSheet.TestCases -->
+      </class> <!-- com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
