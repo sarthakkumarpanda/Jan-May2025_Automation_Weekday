@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions">
+      <class name="com.automation.Day19_Apr_2nd_2025_Dynamic_Dropdown.AutoSuggestive_Dropdown">
         <methods>
-          <include name="mouseActionsOperations"/>
+          <include name="bootstrapdropdown"/>
         </methods>
-      </class> <!-- com.automation.Day18_Apr_1st_2025_Actions_Class.Mouse_Actions -->
+      </class> <!-- com.automation.Day19_Apr_2nd_2025_Dynamic_Dropdown.AutoSuggestive_Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

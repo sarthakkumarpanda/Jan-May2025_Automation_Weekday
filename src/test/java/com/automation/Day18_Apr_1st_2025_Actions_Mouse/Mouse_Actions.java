@@ -1,4 +1,4 @@
-package com.automation.Day18_Apr_1st_2025_Actions_Class;
+package com.automation.Day18_Apr_1st_2025_Actions_Mouse;
 
 import java.util.List;
 
