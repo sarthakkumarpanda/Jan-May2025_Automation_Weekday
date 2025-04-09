@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T20:31:50 EDT" name="Default suite" finished-at="2025-04-08T20:32:02 EDT" duration-ms="12436">
+  <suite started-at="2025-04-08T20:56:33 EDT" name="Default suite" finished-at="2025-04-08T20:56:55 EDT" duration-ms="21051">
     <groups>
     </groups>
-    <test started-at="2025-04-08T20:31:50 EDT" name="Default test" finished-at="2025-04-08T20:32:02 EDT" duration-ms="12436">
-      <class name="com.automation.Day20_Apr_8th_2025_Calendar.Example1">
-        <test-method signature="datePicker()[pri:0, instance:com.automation.Day20_Apr_8th_2025_Calendar.Example1@557caf28]" started-at="2025-04-08T20:31:50 EDT" name="datePicker" finished-at="2025-04-08T20:32:02 EDT" duration-ms="12353" status="PASS">
+    <test started-at="2025-04-08T20:56:33 EDT" name="Default test" finished-at="2025-04-08T20:56:55 EDT" duration-ms="21051">
+      <class name="com.automation.Day20_Apr_8th_2025_Calendar.Invalid_Date">
+        <test-method signature="pickthedate()[pri:0, instance:com.automation.Day20_Apr_8th_2025_Calendar.Invalid_Date@6c6cb480]" started-at="2025-04-08T20:56:34 EDT" name="pickthedate" finished-at="2025-04-08T20:56:55 EDT" duration-ms="20976" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- datePicker -->
-      </class> <!-- com.automation.Day20_Apr_8th_2025_Calendar.Example1 -->
+        </test-method> <!-- pickthedate -->
+      </class> <!-- com.automation.Day20_Apr_8th_2025_Calendar.Invalid_Date -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
