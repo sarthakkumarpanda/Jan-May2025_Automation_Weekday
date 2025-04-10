@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day19_Apr_2nd_2025_Dynamic_Dropdown.AutoSuggestive_Dropdown">
+      <class name="com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay">
         <methods>
-          <include name="bootstrapdropdown"/>
+          <include name="launchApplication"/>
+          <include name="verifyLoginWithNoCredentials"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.Day19_Apr_2nd_2025_Dynamic_Dropdown.AutoSuggestive_Dropdown -->
+      </class> <!-- com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

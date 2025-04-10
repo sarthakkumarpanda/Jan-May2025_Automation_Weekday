@@ -1,17 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results retried="3" ignored="4" total="8" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T20:56:33 EDT" name="Default suite" finished-at="2025-04-08T20:56:55 EDT" duration-ms="21051">
+  <suite started-at="2025-04-09T22:01:26 EDT" name="Default suite" finished-at="2025-04-09T22:01:53 EDT" duration-ms="26919">
     <groups>
     </groups>
-    <test started-at="2025-04-08T20:56:33 EDT" name="Default test" finished-at="2025-04-08T20:56:55 EDT" duration-ms="21051">
-      <class name="com.automation.Day20_Apr_8th_2025_Calendar.Invalid_Date">
-        <test-method signature="pickthedate()[pri:0, instance:com.automation.Day20_Apr_8th_2025_Calendar.Invalid_Date@6c6cb480]" started-at="2025-04-08T20:56:34 EDT" name="pickthedate" finished-at="2025-04-08T20:56:55 EDT" duration-ms="20976" status="PASS">
+    <test started-at="2025-04-09T22:01:26 EDT" name="Default test" finished-at="2025-04-09T22:01:53 EDT" duration-ms="26919">
+      <class name="com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:26 EDT" name="launchApplication" finished-at="2025-04-09T22:01:32 EDT" duration-ms="6307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pickthedate -->
-      </class> <!-- com.automation.Day20_Apr_8th_2025_Calendar.Invalid_Date -->
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:32 EDT" name="verifyLoginWithNoCredentials" finished-at="2025-04-09T22:01:33 EDT" duration-ms="1069" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay.verifyLoginWithNoCredentials(SecondWay.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:33 EDT" name="tearDown" finished-at="2025-04-09T22:01:34 EDT" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:34 EDT" name="launchApplication" finished-at="2025-04-09T22:01:40 EDT" duration-ms="6125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:40 EDT" name="verifyLoginWithNoCredentials" finished-at="2025-04-09T22:01:40 EDT" duration-ms="761" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay.verifyLoginWithNoCredentials(SecondWay.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:40 EDT" name="tearDown" finished-at="2025-04-09T22:01:41 EDT" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:41 EDT" name="launchApplication" finished-at="2025-04-09T22:01:46 EDT" duration-ms="4861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:46 EDT" name="verifyLoginWithNoCredentials" finished-at="2025-04-09T22:01:46 EDT" duration-ms="617" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay.verifyLoginWithNoCredentials(SecondWay.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:46 EDT" name="tearDown" finished-at="2025-04-09T22:01:47 EDT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:47 EDT" name="launchApplication" finished-at="2025-04-09T22:01:52 EDT" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:52 EDT" name="verifyLoginWithNoCredentials" finished-at="2025-04-09T22:01:52 EDT" duration-ms="657" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.abcdefg] but found [Warning: No match for E-Mail Address and/or Password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay.verifyLoginWithNoCredentials(SecondWay.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay@4c402120]" started-at="2025-04-09T22:01:52 EDT" name="tearDown" finished-at="2025-04-09T22:01:53 EDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.Day21_Apr_9th_2025_Retry_Failed_TestCases.SecondWay -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
